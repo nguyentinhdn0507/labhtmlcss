@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #373684;
+}
+.menu_top {
+  margin: 0;
+  text-align: center;
+}
+.menu_top li {
+  display: inline-block;
+  list-style: none;
+  font-size: 2rem;
+}
+.menu_top a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-right: 1px solid #c0caf7;
+  color: #fff;
+}
+.menu_top li:last-child a {
+  border-right: none;
+}
+main {
+  clear: both;
+}
+header h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.img_intro img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+main {
+  background-color: #e5e9fc;
+  padding: 1%;
+  overflow: hidden;
+  font-family: Verdana, Arial, sans-serif;
+}
+.content {
+  background-color: #c0caf7;
+  padding: 1rem;
+}
+.title_header {
+  color: #373684;
+  text-shadow: 3px 3px 10px #8280cb;
+  font-style: italic;
+}
+.title_content {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 4%;
+  color: #373684;
+  text-shadow: 3px 3px 10px #8280cb;
+}
+.info_teacher {
+  display: flex;
+  justify-content: space-around;
+}
+#piano,
+#guitar,
+#violin,
+#guitarElectro {
+  position: relative;
+  width: 275px;
+  height: 300px;
+  border: 5px solid #373684;
+}
+.img_lesson img {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+}
+.info_teacher p {
+  width: 100%;
+  padding: 5% 0;
+  position: absolute;
+  text-align: center;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  bottom: 0;
+  background: rgba(55, 54, 132, 0.7);
+  color: #fff;
+}
+@media screen and (max-width: 730px) {
+  .menu_top li {
+    display: block;
+    border-top: 1px solid #8280cb;
+  }
+  .menu_top li a {
+    border: none;
+  }
+  .info_teacher {
+    flex-direction: column;
+    align-items: center;
+  }
+  #piano,
+  #guitar,
+  #violin,
+  #guitarElectro {
+    margin-bottom: 2rem;
+  }
+}

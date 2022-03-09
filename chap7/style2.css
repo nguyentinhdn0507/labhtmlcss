@@ -1,0 +1,195 @@
+nav {
+  background-color: #2a1f14;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menu_top {
+  margin: 0;
+  text-align: center;
+}
+.menu_top li {
+  display: inline-block;
+  list-style: none;
+  font-size: 2rem;
+}
+.menu_top a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+}
+main {
+  clear: both;
+}
+mobile {
+  display: block;
+}
+
+.tab-desk {
+  display: none;
+}
+
+/* Style rules for header area */
+.mobile h1,
+.mobile h3 {
+  padding: 2%;
+  text-align: center;
+}
+
+.mobile h1 {
+  font-family: "Emblema One", cursive;
+}
+
+.mobile h3 {
+  font-family: "Lora", serif;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.logo_baner img {
+  max-width: 100%;
+  display: block;
+}
+.img_intro img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.title h1 {
+  font-family: Verdana, Arial, sans-serif;
+  padding: 2%;
+  font-size: 2rem;
+}
+main {
+  padding: 2%;
+  font-family: "Lora", serif;
+}
+#info img {
+  width: 50%;
+}
+
+#info ul {
+  margin-left: 10%;
+}
+
+#contact {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+aside {
+  grid-column: 1 / span 3;
+}
+aside {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 4px 4px 10px #c5a687;
+}
+
+figure {
+  border: 4px solid #2a1f14;
+  box-shadow: 6px 6px 10px #c5a687;
+  max-width: 400px;
+  margin: 2% auto;
+}
+
+figcaption {
+  padding: 2%;
+  border-top: 4px solid #2a1f14;
+}
+footer {
+  background-color: #2a1f14;
+  text-align: center;
+  color: #fff;
+}
+@media screen and (min-width: 620px), print {
+  /* Tablet Viewport: Show tab-desk class, hide mobile class */
+  .tab-desk {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .menu_top li {
+    display: block;
+    border-top: 1px solid #f6eee4;
+  }
+  .menu_top li a:hover {
+    color: rgb(110, 7, 7);
+    background-color: #f6eee4;
+    opacity: 0.6;
+  }
+  /* Tablet Viewport: Style rules for nav area */
+  nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.25em;
+  }
+  nav li a {
+    padding: 0.5em;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+
+  aside {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media screen and (min-width: 1000px), print {
+  /* Desktop Viewport: Style rules for nav area */
+  nav li {
+    font-size: 1.5em;
+  }
+  .menu_top li {
+    display: inline-block;
+    border-top: none;
+  }
+  .menu_top li a {
+    padding: 1rem 1.5rem;
+  }
+  .menu_top li a:hover {
+    color: rgb(110, 7, 7);
+    background-color: #f6eee4;
+    opacity: 0.6;
+  }
+  /* Desktop Viewport: Style rules for main content */
+  #info ul {
+    margin-left: 5%;
+  }
+  .grid {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  aside {
+    grid-column: 1 / span 4;
+  }
+}
+@media screen and (min-width: 1921px) {
+  body {
+    background: linear-gradient(#f6eee4, #78593a);
+  }
+  #wrapper {
+    width: 1920px;
+    margin: 0 auto;
+  }
+
+  main {
+    background-color: #f6eee4;
+  }
+}
+
+/* Media Query for Print */
