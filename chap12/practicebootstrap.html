@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <title>MiniProject2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      .container {
+        width: 1100px;
+        margin: 0 auto;
+      }
+      header {
+        border-top: 3px solid#ffa801;
+        background-color: #1e272e;
+      }
+      section {
+        border-bottom: 3px solid#ffa801;
+      }
+      .fas {
+        color: #ffd32a;
+        font-size: 20px;
+      }
+      .established {
+        color: #ffd32a;
+      }
+      header h3{
+          color: #fff;
+          text-transform: uppercase;
+      }
+      header p {
+          color: #fff;
+      }
+      .services h3 ,.img_taxi h3{
+          text-transform: uppercase;
+      }
+      .img_taxi img{
+          width: 100%;
+          padding: 0.3rem;
+          border:2px solid #ffa801;
+      }
+      .img_taxi h3 {
+          font-size: 16px;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+      }
+      .book_now {
+          padding: 0.2rem 1.5rem;
+          background-color: #ffd32a;
+          color: #fff;
+          font-weight: bold;
+          border-top-left-radius: 50px;
+          border-bottom-left-radius: 50px;
+          border-top-right-radius: 100px;
+          outline: none;
+          border: none;
+      }
+      .city_img img {
+          width: 100%;
+          height: 130px;
+      }
+      .content_city {
+          border-right: 2px solid #d2dae2;
+          border-left: 2px solid #d2dae2;
+          border-bottom: 2px solid #d2dae2;
+          padding: 1rem
+      }
+      .btn_readmore {
+          padding: 0.2rem 1.5rem;
+          background-color: #1e272e;
+          color: #fff;
+          font-weight: bold;
+          border-top-left-radius: 50px;
+          border-bottom-left-radius: 50px;
+          border-top-right-radius: 100px;
+          outline: none;
+          border: none;
+      }
+      .price_tour {
+          padding: 1rem 0
+      }
+      .content_city h3 {
+          font-size: 16px;
+          text-transform: uppercase;
+      }
+      .price_tour p {
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wapper container">
+      <header>
+        <div class="m-0 p-4 text-center row">
+          <div class="col-lg-4">
+            <h3>Repairs</h3>
+            <i class="fas fa-tools"></i>
+            <p class="established">ic long established</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+              voluptatum in eius veritatis aliquam pariatur?
+            </p>
+            <p>More</p>
+          </div>
+          <div class="col-lg-4">
+            <h3>spares</h3>
+            <i class="fas fa-cogs"></i>
+            <p class="established">ic long established</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+              voluptatum in eius veritatis aliquam pariatur?
+            </p>
+            <p>More</p>
+
+          </div>
+          <div class="col-lg-4">
+            <h3>sales</h3>
+            <i class="fas fa-shopping-cart"></i>
+            <p class="established">ic long established</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+              voluptatum in eius veritatis aliquam pariatur?
+            </p>
+            <p>More</p>
+          </div>
+        </div>
+      </header>
+      <section>
+          <div class="text-center services">
+                <h3>pouplar service</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="text-center img_taxi row">
+                <div class="col-lg-3">
+                    <img src="https://media.istockphoto.com/photos/taxi-picture-id519870714?b=1&k=20&m=519870714&s=170667a&w=0&h=n6BhLGwnTiyizL85ibO-7dPWMpCzNOzWyiN_gh_UwY8=" alt="">
+                    <h3>call on taxi</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, ratione!</p>
+                    <button class="book_now">Book Now</button>
+                </div>
+                <div class="text-center  col-lg-3">
+                    <img src="https://media.istockphoto.com/photos/taxis-in-times-square-with-7th-avenue-new-york-city-manhattan-picture-id1277102943?b=1&k=20&m=1277102943&s=170667a&w=0&h=tp_vCWDpgrKsUBtl2ZI-8yy2fMHtoZJPcaZBTcnN9nc=" alt="">
+                    <h3>airport tranfer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, ratione!</p>
+                    <button class="book_now">Book Now</button>
+                </div>
+                <div class="text-center  col-lg-3">
+                    <img src="https://media.istockphoto.com/photos/taxis-on-7th-avenue-at-times-square-new-york-city-picture-id518657226?b=1&k=20&m=518657226&s=170667a&w=0&h=ZS9oD1Zqte-Cr3JaLcw97xO1Mwb8edsly7nU4v4uZJ0=" alt="">
+                    <h3>accessible taxi</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, ratione!</p>
+                    <button class="book_now">Book Now</button>
+                </div>
+                <div class="text-center  col-lg-3">
+                    <img src="https://images.unsplash.com/photo-1628947733273-cdae71c9bfd3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHRheGl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <h3>skilled driver</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, ratione!</p>
+                    <button class="book_now">Book Now</button>
+                </div>
+          </div>
+          <div class="city_tour">
+            <div class="city_price">
+                <h3 class="text-center">city pricing</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="row pb-4">
+                <div class="city_img text-center col-lg-3">
+                    <img src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNpdHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <div class="content_city">
+                        <h3>new york city</h3>
+                        <div class="price_tour">
+                            <div class="d-flex justify-content-between">
+                                <p>hourly</p>
+                                <p>$30</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>whole day</p>
+                                <p>$300</p>
+                            </div>
+                        </div>
+                        <button class="btn_readmore">read more</button>
+                    </div>
+                </div>
+                <div class="city_img text-center col-lg-3">
+                    <img src="https://media.istockphoto.com/photos/san-francisco-skyline-with-oakland-bay-bridge-at-sunset-california-picture-id1136437406?b=1&k=20&m=1136437406&s=170667a&w=0&h=wkSwE70gUpdL_meD77l_HqgcxjfZkRE9WsPzUzMBHJ8=" alt="">
+                    <div class="content_city">
+                        <h3>san francisco</h3>
+                        <div class="price_tour">
+                            <div class="d-flex justify-content-between">
+                                <p>hourly</p>
+                                <p>$30</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>whole day</p>
+                                <p>$300</p>
+                            </div>
+                        </div>
+                        <button class="btn_readmore">read more</button>
+                    </div>
+                </div>
+                <div class="city_img text-center col-lg-3">
+                    <img src="https://media.istockphoto.com/photos/downtown-los-angeles-with-snow-capped-mountains-in-background-picture-id1305406403?b=1&k=20&m=1305406403&s=170667a&w=0&h=eHosoBkHLceljcvXUgFh6-LAe8QwjudNRYNaJEn4JC0=" alt="">
+                    <div class="content_city">
+                        <h3>los angeles</h3>
+                        <div class="price_tour">
+                            <div class="d-flex justify-content-between">
+                                <p>hourly</p>
+                                <p>$30</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>whole day</p>
+                                <p>$300</p>
+                            </div>
+                        </div>
+                        <button class="btn_readmore">read more</button>
+                    </div>
+                </div>
+                <div class="city_img text-center col-lg-3">
+                    <img src="https://media.istockphoto.com/photos/capitol-building-picture-id621851478?b=1&k=20&m=621851478&s=170667a&w=0&h=3ZYOeTceccSdfXy1S1SXBVDhQQLGioIbvVscTJw_4bk=" alt="">
+                    <div class="content_city">
+                        <h3>washington</h3>
+                        <div class="price_tour">
+                            <div class="d-flex justify-content-between">
+                                <p>hourly</p>
+                                <p>$30</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>whole day</p>
+                                <p>$300</p>
+                            </div>
+                        </div>
+                        <button class="btn_readmore">read more</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+    </div>
+  </body>
+</html>
